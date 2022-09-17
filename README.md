@@ -1,2 +1,2 @@
-# Finding cosmological parameters
-Fitting curve to find cosmological parameters Omega and Lambda using redshift and magnitude data from 42 high-redshift supernovae 
+# Finding cosmological parameters Omega Matter and Omega Lambda from 42 High-Redshift Supernovae
+ 
