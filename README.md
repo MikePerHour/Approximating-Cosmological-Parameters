@@ -6,11 +6,13 @@ In this project, my goal was to estimate the Cosmological Parameters Ω<sub>M</
  ![image](https://user-images.githubusercontent.com/113722000/190884297-2c78b0b8-af37-4de6-93b9-2f8270c6f51c.png)
  ![image](https://user-images.githubusercontent.com/113722000/190884412-f234c0c4-e7a1-4dac-8ac8-3d1d6a33987e.png)
  ![image](https://user-images.githubusercontent.com/113722000/190884427-2c551f1c-9a95-48ef-9246-bc6647b90a38.png)
+ 
+This function was used in two parts, one where Ω<sub>M</sub> + Ω<sub>Λ</sub> ≠ 1, and another where I set Ω<sub>M</sub> + Ω<sub>Λ</sub> = 1. A constraint equal to 1 implies a flat universe and allows for an easier approximation for each parameter since the degrees of freedom are reduced by one. 
 
 ## Method  
 To find Ω<sub>M</sub> and Ω<sub>Λ</sub>, I used curve fit from SciPy to find the optimal parameters needed to fit the Redshift and Magnitude measurements to the luminosity distance function. To test the accuracy of this model, I applied Chi-Squared Minimization to measure the goodness of fit and Mean Squared Estimation to meaure the difference between the approximate and real Redshift and Magnitude values. 
 
-This function was used in two parts, one where Ω<sub>M</sub> + Ω<sub>Λ</sub> ≠ 1, and another where I set Ω<sub>M</sub> + Ω<sub>Λ</sub> = 1. A constraint equal to 1 implies a flat universe and allows for an easier approximation for each parameter since the degrees of freedom are reduced by one. 
+
 
 ## Results for Ω<sub>M</sub> + Ω<sub>Λ</sub> ≠ 1
 ```
