@@ -11,8 +11,14 @@ In this project, my goal was to estimate the Cosmological Parameters Ω<sub>M</
 These functions were used in two parts, one where Ω<sub>M</sub> and Ω<sub>Λ</sub> do not have a constraint, and another where I set the constraint Ω<sub>M</sub> + Ω<sub>Λ</sub> = 1, i.e. a flat universe. As for today, when assuming Ω<sub>M</sub> + Ω<sub>Λ</sub> = 1, the best measurements of Ω<sub>M</sub> is between 0.25 - 0.30 and for Ω<sub>Λ</sub> is between 0.70 - 0.75. 
 
 ## Technology used
-In this project, I used Python and Jupyter notebook for the write-up. As for 
-
+- Python 3.6 
+- Jupyter notebook
+## Python Libraries used
+- scipy.integrate.quad
+This was used to calculate the definite integral in the luminosity distance function d<sub>L</sub>
+- scipy.stats.st
+This was used to find the probability of the chi-square statistic which is used for finding reduced chi-square
+- scipy.stats.chi2
 ## Method 
 To find Ω<sub>M</sub> and Ω<sub>Λ</sub>, I used curve fit from SciPy to find the optimal parameters needed to fit the Redshift and Magnitude measurements to the luminosity distance function. Curve fit from SciPy's optimize library uses non-linear least squares (Specifically the Levenberg-Marquardt algorithm) to fit a function to the data where the parameters found will minimize the sum of the squared residuals. To test the accuracy of this model, I applied Chi-Square Minimization to measure the goodness of fit. Chi-Square Minimization is a technique that minimizes the value of the Chi-Square Test Statistic, which when divided by my degrees of freedom, can determine if my curve matched nicely to my data points. This process of dividing the Chi-Square Test Statistic by the degrees of freedom is called the Reduced Chi-Square Statistic. If the Reduced Chi-Square Statistic is near 1 then we can assume that the model is a good fit. I then used Mean Square Estimation Error to further confirm the accuracy of our model by comparing how close the difference between the approximate and real Redshift and Magnitude values are to one another. When this measure is close to 0, we can say that the model fits well to our data. 
  
