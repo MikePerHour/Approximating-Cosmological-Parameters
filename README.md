@@ -8,7 +8,7 @@ In this project, my goal was to estimate the Cosmological Parameters Ω<sub>M</
 ![image](https://user-images.githubusercontent.com/113722000/191138104-4d783c65-9034-46e7-8626-d6491b347b29.png)
 ![image](https://user-images.githubusercontent.com/113722000/191138161-d3869cde-0678-45fe-9542-40e90224619c.png)
 
-This function was used in two parts, one where Ω<sub>M</sub> + Ω<sub>Λ</sub> ≠ 1, and another where I set Ω<sub>M</sub> + Ω<sub>Λ</sub> = 1
+These functions were used in two parts, one where Ω<sub>M</sub> + Ω<sub>Λ</sub> ≠ 1, and another where I set the constraint Ω<sub>M</sub> + Ω<sub>Λ</sub> = 1 onto the parameters. 
 
 ## Background 
 - Explain what Redshift and Magnitude are (Also candlestick approach for measure distance) 
