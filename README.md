@@ -9,12 +9,13 @@ d<sub>L</sub> , is given below with c and H<sub>o</sub> excluded in my own calcu
 ![image](https://user-images.githubusercontent.com/113722000/191138104-4d783c65-9034-46e7-8626-d6491b347b29.png)
 ![image](https://user-images.githubusercontent.com/113722000/191138161-d3869cde-0678-45fe-9542-40e90224619c.png)
 
+This function was used in two parts, one where Ω<sub>M</sub> + Ω<sub>Λ</sub> ≠ 1, and another where I set Ω<sub>M</sub> + Ω<sub>Λ</sub> = 1
 
 - Show log formula and where constant term (23 ish) comes from (Mean of magnitude data)
-This function was used in two parts, one where Ω<sub>M</sub> + Ω<sub>Λ</sub> ≠ 1, and another where I set Ω<sub>M</sub> + Ω<sub>Λ</sub> = 1
 
 ## Background 
 - Explain what Redshift and Magnitude are (Also candlestick approach for measure distance) 
+In the early 1920's, Edwin Hubble found that there was a linear relationship between the redshifts and distances of galaxies. As galaxies were more redshifted i.e. farther away, the faster these galaxies were moving away from the Milky Way. Implicitly, this means that there is some rate that the universe is expanding. 
 - Explain what omega matter and lambda are and why they are important. 
 - Explain what M + L = 1 means in terms of flat universe. 
 - Explain H not and C and why they are excluded from the calculation. 
