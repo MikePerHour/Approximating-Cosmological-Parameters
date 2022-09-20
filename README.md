@@ -23,7 +23,25 @@ To find Ω<sub>M</sub> and Ω<sub>Λ</sub>, I used curve fit from SciPy to fin
 ## Results 
 ### Ω<sub>M</sub> + Ω<sub>Λ</sub> ≠ 1
 
+```
+Omega Matter:  0.6337216810462113
+Omega Lambda:  1.1048258157863622
+Reduced chi-square:  1.1017675850177235
+Probability of chi-square:  0.28529445346456467
+Mean Squared Error:  0.07225730198828448
+```
+![image](https://user-images.githubusercontent.com/113722000/191159442-44364487-78d7-4c33-991a-1a78f6bdd90e.png)
+
 ###  Ω<sub>M</sub> + Ω<sub>Λ</sub> = 1
+
+```
+Constrained Omega Matter:  0.29175800883954417
+Constrained Omega Lambda:  0.7082419911604558
+Reduced chi-square for constraint:  1.0890196146779565
+Probability for reduced chi-square:  0.30514195335647476
+Mean Squared Error:  0.07173226319591595
+```
+
 - Explain what results mean
 - Explain what the probability means for chi square
 - Show the actual measurements of matter and lambda from scientific data
