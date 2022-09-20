@@ -12,8 +12,11 @@ These functions were used in two parts, one where Ω<sub>M</sub> and Ω<sub>Λ
 
 ## Background 
 - Explain what Redshift and Magnitude are (Also candlestick approach for measure distance) 
+
 In the early 1920's, Edwin Hubble found that there was a linear relationship between the redshifts and distances of galaxies. As galaxies were more redshifted i.e. farther away, the faster these galaxies were moving away from the Milky Way. Implicitly, this means that there is some rate that the universe is expanding. 
 - Explain what omega matter and lambda are and why they are important. 
+
+Ω<sub>M</sub> is defined as matter density and Ω<sub>Λ</sub> is defined as energy density.
 - Explain what M + L = 1 means in terms of flat universe. 
 - Explain H not and C and why they are excluded from the calculation. 
 
