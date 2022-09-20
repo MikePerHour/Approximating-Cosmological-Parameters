@@ -34,7 +34,7 @@ Reduced chi-square:  1.1017675850177235
 Probability of chi-square:  0.28529445346456467
 Mean Squared Error:  0.07225730198828448
 ```
-From curve fit, the optimal parameters found were Ω<sub>M</sub> ≈ 0.634 and Ω<sub>Λ</sub> ≈ 1.105. The value of Reduced Chi-Square is 1.1, which is close to 1, so we can hypothesize that curve is a good fit for our data. The probability of chi-square tells us that if we were going to repeat this experiment, there is about a 28.529% chance of finding a better chi-square statistic that is within a 95% confidence interval.  
+From curve fit, the optimal parameters found were Ω<sub>M</sub> ≈ 0.634 and Ω<sub>Λ</sub> ≈ 1.105. The value of Reduced Chi-Square is 1.1, which is close to 1, so we can hypothesize that curve is a good fit for our data. The probability of chi-square tells us that if we were going to repeat this experiment, there is about a 28.529% chance of finding a better chi-square statistic that is within a 95% confidence interval. Values for Ω<sub>M</sub> and Ω<sub>Λ</sub> that were found by most recent methods tells us that Ω<sub>M</sub> is between 0.25 - 0.30 and for Ω<sub>Λ</sub> is between 0.70 - 0.75 so our current evalution is inaccurate, as we are not taking into account that the total density parameter is close to 1. In the next section, we will see how our parameters change as we set the total density parameter, i.e.  Ω<sub>M</sub> + Ω<sub>Λ</sub>, equal to 1. 
 
 ![image](https://user-images.githubusercontent.com/113722000/191159442-44364487-78d7-4c33-991a-1a78f6bdd90e.png)
 ![image](https://user-images.githubusercontent.com/113722000/191159570-550be766-966e-4998-b664-d3e5e683a7a2.png)
@@ -50,7 +50,7 @@ Reduced chi-square for constraint:  1.0890196146779565
 Probability for reduced chi-square:  0.30514195335647476
 Mean Squared Error:  0.07173226319591595
 ```
-Best estimates for total Omega is close to 1, so 
+Best estimates for total Omega is close to 1, so by setting Ω<sub>M</sub> + Ω<sub>Λ</sub> = 1, we should find a better approximation for Ω<sub>M</sub> and Ω<sub>Λ</sub>. A better approximation would mean that the Reduced Chi-Square is smaller than our none constraint parameters and that Ω<sub>M</sub> and Ω<sub>Λ</sub> are closer to the ranges of 0.25 - 0.30 & 0.70 - 0.75 respectively. 
 
 ![image](https://user-images.githubusercontent.com/113722000/191163492-5f446a7c-a749-4189-8b57-d7c6d37a0e4b.png)
 ![image](https://user-images.githubusercontent.com/113722000/191163529-a7dab9ab-e221-42e1-aba8-05781626425e.png)
