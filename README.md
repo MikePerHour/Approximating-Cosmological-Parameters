@@ -1,6 +1,6 @@
 # Using a non-linear least squares approach to find cosmological parameters Omega and Lambda by using redshift and magnitude data from seven high-redshift Type Ia Supernovae 
 ## Description
-In this project, my goal was to estimate the Cosmological Parameters Ω<sub>M</sub> and Ω<sub>Λ</sub> from data taken from "Measurements of the Cosmological Parameters Ω and Λ from the First 7 Supernovae at z ≥ 0.35" by Perlmutter et al 1996. This data contained Redshift and Magnitude measurements from seven Type Ia Supernovae gathered during the Supernova Cosmology Project. To find the Ω<sub>M</sub> and Ω<sub>Λ</sub> parameters, I attempted to fit the Redshift and Magnitude data to a function of apparent brightness, m(z), that takes luminosity distance as input. The constant, M, is the absolute magnitude and d<sub>L</sub>, the luminosity distance function, is given below with c and H<sub>o</sub> excluded in my own calculation.
+In this project, my goal was to estimate the Cosmological Parameters Ω<sub>M</sub> and Ω<sub>Λ</sub> from data taken from "Measurements of the Cosmological Parameters Ω and Λ from the First 7 Supernovae at z ≥ 0.35" by Perlmutter et al 1996. This data contained Redshift and Magnitude measurements from seven Type Ia Supernovae gathered during the Supernova Cosmology Project. To find the Ω<sub>M</sub> and Ω<sub>Λ</sub> parameters, I attempted to fit the Redshift and Magnitude data to a function of apparent brightness, m(z), that takes luminosity distance as input. The constant, M, is the absolute magnitude and d<sub>L</sub> , the luminosity distance function, is given below with c and H<sub>o</sub> excluded in my own calculation.
 
 ![image](https://user-images.githubusercontent.com/113722000/191138243-4a2cd913-da4a-4ee4-9fc0-5408d1110f34.png)
 ![image](https://user-images.githubusercontent.com/113722000/191138192-aef152c7-f200-4283-91d1-a06f032c095e.png)
@@ -10,8 +10,6 @@ In this project, my goal was to estimate the Cosmological Parameters Ω<sub>M</
 
 This function was used in two parts, one where Ω<sub>M</sub> + Ω<sub>Λ</sub> ≠ 1, and another where I set Ω<sub>M</sub> + Ω<sub>Λ</sub> = 1
 
-- Show log formula and where constant term (23 ish) comes from (Mean of magnitude data)
-
 ## Background 
 - Explain what Redshift and Magnitude are (Also candlestick approach for measure distance) 
 In the early 1920's, Edwin Hubble found that there was a linear relationship between the redshifts and distances of galaxies. As galaxies were more redshifted i.e. farther away, the faster these galaxies were moving away from the Milky Way. Implicitly, this means that there is some rate that the universe is expanding. 
@@ -20,9 +18,7 @@ In the early 1920's, Edwin Hubble found that there was a linear relationship bet
 - Explain H not and C and why they are excluded from the calculation. 
 
 ## Method 
-To find Ω<sub>M</sub> and Ω<sub>Λ</sub>, I used curve fit from SciPy to find the optimal parameters needed to fit the Redshift and Magnitude measurements to the luminosity distance function. Curve fit uses non-linear least squares from SciPy's optimize library to fit a function to the data where the parameters found minimize the sum of the squared residuals. 
-- Explain what curve fit does and how it find parameters
-To test the accuracy of this model, I applied Chi-Square Minimization to measure the goodness of fit and Mean Squared Estimation to measure the difference between the approximate and real Redshift and Magnitude values.
+To find Ω<sub>M</sub> and Ω<sub>Λ</sub>, I used curve fit from SciPy to find the optimal parameters needed to fit the Redshift and Magnitude measurements to the luminosity distance function. Curve fit from SciPy's optimize library uses non-linear least squares to fit a function to the data where the parameters found will minimize the sum of the squared residuals. To test the accuracy of this model, I applied Chi-Square Minimization to measure the goodness of fit and Mean Squared Estimation to measure the difference between the approximate and real Redshift and Magnitude values. 
 - Explain what chi square min is, reduced chi square, and MSE 
     - Explanation for chi square can be used from pdf paper 
 ## Results 
