@@ -1,4 +1,4 @@
-# A non-linear least squares approach to find cosmological parameters Omega and Lambda by using redshift and magnitude data from seven high-redshift Type Ia Supernovae 
+# A non-linear least squares approach to find cosmological parameters Ω<sub>M</sub> and Ω<sub>Λ</sub> by using redshift and magnitude data from seven high-redshift Type Ia Supernovae 
 ## Description
 In this project, my goal was to estimate the Cosmological Parameters Ω<sub>M</sub> and Ω<sub>Λ</sub> from data taken from "Measurements of the Cosmological Parameters Ω and Λ from the First 7 Supernovae at z ≥ 0.35" by Perlmutter et al 1996. This data contained Redshift and Magnitude measurements from seven Type Ia Supernovae gathered during the Supernova Cosmology Project. To find the Ω<sub>M</sub> and Ω<sub>Λ</sub> parameters, I attempted to fit the Redshift and Magnitude data to a function of apparent brightness, m(z), that takes luminosity distance as input. The constant, M, is the absolute magnitude and d<sub>L</sub> , the luminosity distance function, is given below with c and H<sub>o</sub> excluded in my own calculation.
 
