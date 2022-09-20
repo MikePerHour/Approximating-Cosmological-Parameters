@@ -24,7 +24,7 @@ In the early 1920's, Edwin Hubble found that there was a linear relationship bet
 To find Ω<sub>M</sub> and Ω<sub>Λ</sub>, I used curve fit from SciPy to find the optimal parameters needed to fit the Redshift and Magnitude measurements to the luminosity distance function. Curve fit from SciPy's optimize library uses non-linear least squares (Specifically the Levenberg-Marquardt algorithm) to fit a function to the data where the parameters found will minimize the sum of the squared residuals. To test the accuracy of this model, I applied Chi-Square Minimization to measure the goodness of fit. Chi-Square Minimization is a technique that minimizes the value of the Chi-Square Test Statistic, which when divided by my degrees of freedom, can determine if my curve matched nicely to my data points. This process of dividing the Chi-Square Test Statistic by the degrees of freedom is called the Reduced Chi-Square Statistic. If the Reduced Chi-Square Statistic is near 1 then we can assume that the model is a good fit. I then used Mean Square Estimation Error to further confirm the accuracy of our model by comparing how close the difference between the approximate and real Redshift and Magnitude values are to one another. When this measure is close to 0, we can say that the model fits well to our data. 
  
 ## Results 
-### Ω<sub>M</sub> and Ω<sub>Λ</sub> have no constraint
+### Ω<sub>M</sub> and Ω<sub>Λ</sub> do not have a constraint
 
 ```
 Omega Matter:  0.6337216810462113
@@ -46,6 +46,9 @@ Reduced chi-square for constraint:  1.0890196146779565
 Probability for reduced chi-square:  0.30514195335647476
 Mean Squared Error:  0.07173226319591595
 ```
+![image](https://user-images.githubusercontent.com/113722000/191163492-5f446a7c-a749-4189-8b57-d7c6d37a0e4b.png)
+![image](https://user-images.githubusercontent.com/113722000/191163529-a7dab9ab-e221-42e1-aba8-05781626425e.png)
+
 
 - Explain what results mean
 - Explain what the probability means for chi square
