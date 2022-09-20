@@ -21,7 +21,7 @@ In the early 1920's, Edwin Hubble found that there was a linear relationship bet
 - Explain H not and C and why they are excluded from the calculation. 
 
 ## Method 
-To find Ω<sub>M</sub> and Ω<sub>Λ</sub>, I used curve fit from SciPy to find the optimal parameters needed to fit the Redshift and Magnitude measurements to the luminosity distance function. 
+To find Ω<sub>M</sub> and Ω<sub>Λ</sub>, I used curve fit from SciPy to find the optimal parameters needed to fit the Redshift and Magnitude measurements to the luminosity distance function. Curve fit uses non-linear least squares from SciPy's optimize library to fit a function to the data where the parameters found minimize the sum of the squared residuals. 
 - Explain what curve fit does and how it find parameters
 To test the accuracy of this model, I applied Chi-Square Minimization to measure the goodness of fit and Mean Squared Estimation to measure the difference between the approximate and real Redshift and Magnitude values.
 - Explain what chi square min is, reduced chi square, and MSE 
