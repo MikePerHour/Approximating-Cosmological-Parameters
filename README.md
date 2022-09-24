@@ -19,7 +19,7 @@ These functions were used in two parts, one where Ω<sub>M</sub> and Ω<sub>Λ
 - scipy.stats.chi2
 - scipy.optimize.curve_fit
 - matplotlib.pyplot
-- numpy
+- NumPy
 
 ## Method 
 To find Ω<sub>M</sub> and Ω<sub>Λ</sub>, I used curve fit from SciPy to find the optimal parameters needed to fit the Redshift and Magnitude measurements to the luminosity distance function. Curve fit from SciPy's optimize library uses non-linear least squares (Specifically the Levenberg-Marquardt algorithm) to fit a function to the data where the parameters found will minimize the sum of the squared residuals. To test the accuracy of this model, I applied Chi-Square Minimization to measure the goodness of fit. Chi-Square Minimization is a technique that minimizes the value of the Chi-Square Test Statistic, which when divided by my degrees of freedom, can determine if my curve matched nicely to my data points. This process of dividing the Chi-Square Test Statistic by the degrees of freedom is called the Reduced Chi-Square Statistic. If the Reduced Chi-Square Statistic is near 1 then we can assume that the model is a good fit. I then used Mean Square Estimation Error to further confirm the accuracy of our model by comparing how close the difference between the approximate and real Redshift and Magnitude values are to one another. When this measure is close to 0, we can say that the model fits well to our data. 
